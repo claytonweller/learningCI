@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key: 87b49e5a-bb50-49bd-bee4-0cd6e63efa8a
+    secure: k0rSH6Rl3/tMDSeJknfjWT8v4krNbzLqmgbIszXL+70xbDzVT1lsQWQm8y1XCAGotE6ItxCxTWtteVHD5/nIcIwQZrMaR8kSVYZ2x2eVe8YKaJ63CHZTRjn+XUJIumC5LQ8dW/QaPvwW/jIKnPDRU1nABq44cfdudRhqJMf7vON6h4v3SD5Tlg65Hv3V+db+IelYoL2I3ggtZPbL8laqGfHnv3Tp2v4aIBWOEmi1fdB55jKbswsvZmS2TvmScEHkeRgxbOyrNK8PN6uMeRXE+j4BM6O+MVJ6zilrC4O33/9t/33SGSJegW6LvY2C+0hRPxgy1Hh04+RrC/KgxsEIqYOLK5513646Whfsw6/tGVDgG9/Mbwgi15ZyKFmaz4bhhvhQTRI2yytW6TBb/VwoS29FtF/WWDMYac8VVvkfW2Q6ZEYGUo4JIVFljhdT9gvRT4i50p2baPBh3ptIk1CiMi0E3R+f9v6od7+OXmphVroS/k5zS72cVjSJ4kWXlRMY4i1GIvIODwOBhhCIi/Nc4SYJRR+HZTFgeFyECKIQE49d9ufuGjT45VIcrLIX81QovwipgoOZATX3Eu728xXIpWipycfmk6FAVz/lcv52NIHocSAunEzzI8wpTkVkGjnOCKUbgISYFAwY+MQgH3RVR7NCCAAfGTUnR0oR/SAo1pQ=
+  app: guarded-shore-10188
+  on:
+    repo: claytonweller/learningCI
